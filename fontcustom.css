@@ -1,0 +1,47 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom_0b89fbb295d02186ddaecc07015ac83b.eot");
+  src: url("./fontcustom_0b89fbb295d02186ddaecc07015ac83b.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_0b89fbb295d02186ddaecc07015ac83b.woff") format("woff"),
+       url("./fontcustom_0b89fbb295d02186ddaecc07015ac83b.ttf") format("truetype"),
+       url("./fontcustom_0b89fbb295d02186ddaecc07015ac83b.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_0b89fbb295d02186ddaecc07015ac83b.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-1397951551_goodreads:before,
+.icon-goodreads:before,
+.icon-goodreads-2:before,
+.icon-icon-amazon:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-1397951551_goodreads:before { content: "\f103"; }
+.icon-goodreads:before { content: "\f101"; }
+.icon-goodreads-2:before { content: "\f104"; }
+.icon-icon-amazon:before { content: "\f102"; }

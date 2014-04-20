@@ -1,4 +1,4 @@
 glyphs
 ======
 
-custom amazon & custom glyphs for front end
+custom amazon & goodreads glyphs for front end
